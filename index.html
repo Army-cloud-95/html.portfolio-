@@ -1,43 +1,68 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
+<html lang="en">
 
-    <title>Khushi`s Portfolio</title>
- </head>
- <body>
-    <h1>Khushi`s Portfolio</h1>
-    <h2>I am a Web Developer</h2>
-    <hr />
-    <h3>Link of projects</h3>
-    <h3><a href="public/birthday-invite.html">Birthday invitation</a></h3>
-    <h3><a href="./public/movie-ranking.html">movie-ranking</a></h3>
-    <h3><a href="./public/dog.html">Cute Dogs</a></h3>
-    <h3><a href="./public/employmentportal.html">HR portal</a></h3>
-    <h3><a href="./assets/images/Multiple web.mp4">Multiple web</a></h3>
-    <hr/>
-    <h3><a href="public/birthday-invite.html">Birthday invitation</a></h3>
-    <img src="./assets/images/birthday-invite.png" alt="birthday invitation with purple cake">
-    <hr />
-    <h3><a href="./public/movie-ranking.html">movie-ranking</a></h3>
-    <img src="./assets/images/movie-ranking.png" alt="list of my favorate movie">
-    <hr/>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .flag{
+      
+      height: 600px;
+      width: 900px;
+      position: relative;
+      background-color: #ce1126;
+    }
+    .flag>div{
+      background-color: #002868;
+      height: 300px;
+      width: 100%;
+      position: absolute;
+      top: 150px;
+    }
+    .flag > div > div {
+      background-color: white;
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      
+      top: 50px;
+      left: 350px;
+      
+    }
+    p{
+      font-size: 5rem;
+      text-align: center;
+      color:white;
+      padding: 0;
+      margin: 0;
+    }
+    .flag div div p{
+      color: black;
+    }
+   
+    
+ 
+    
+  </style>
+</head>
 
-    <h3><a href="./public/dog.html">Cute Dogs</a></h3>
-    <video><source src="./assets/images/cute dogs.mp4" type="video/mp4"> </video>
-    <hr />
-           <h3><a href="./public/employmentportal.html">HR portal</a></h3>
-    <video> <source src="./assets/images/HR portal.mp4" type="video/mp4" alt="company HR portal"></video>
-    <hr />
+<!-- 
+  IMPORTANT! Do not change any HTML
 
-  
-    
-  
-    <h3><a href="./assets/images/Multiple web.mp4">Multiple web</a></h3>
-    <video><source src="./assets/images/Multiple web.mp4" alt="Multiple websites"></video>
-    
-    <hr/>
-    <a href="./public/contact.html">Contact me</a>
-    
- </body>
- </html>
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div >
+      <div >
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
